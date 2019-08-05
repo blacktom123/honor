@@ -1,0 +1,95 @@
+/*头部第一部分*/
+.site-topbar{
+    width: 1366px; 
+    font-size: 14px; 
+    margin: 0 auto;
+}
+.whole-page{ 
+    width: 1200px; 
+    margin: 0 auto; 
+    position: relative;
+}
+.site-topbar .topbar-nav, .site-topbar .topbar-info{ 
+    float: right; 
+    height: 30px; 
+    line-height: 30px; 
+    overflow: hidden;
+}
+.topbar-nav a,.topbar-info a{ 
+    color: #fff;
+}
+.site-topbar .rep{ 
+    font-size: 13px;
+    margin: 0 5px;
+}
+.site-topbar .topbar-info{ 
+    margin-left: 50px;
+}
+.site-topbar .topbar-info .icon-user i{ 
+    font-size: 12px; 
+}
+.affix{
+    background: url(../images/header/topbar-bg.gif) repeat-x #fff;
+    height: 30px; 
+    }
+/*头部第二部分*/
+.site-header{
+    height: 60px;
+    background: #f6f6f6;
+}
+.header-logo{
+    width: 200px;
+}
+.header-nav{
+    width: 756px;
+}
+.header-search{
+    width:244px;
+}
+.nav div{
+    float: left;
+    line-height: 60px;
+}
+.header-nav>ul>li{
+    float: left;
+}
+.header-nav>ul li a{
+    height:60px;
+    display: block;
+    color: #909090;
+    margin: 0px 10px;
+    padding: 0 15px;
+    font-size:16px;
+    box-sizing: border-box;
+}
+/*搜索框*/
+#search>form>input{
+    position: absolute;
+    outline:none;
+    border:none;
+    height:30px;
+    width:200px;
+    margin-left:20px;
+    background: #f6f6f6;
+}
+#search{
+   float: right;
+   position: relative; 
+   height:30px;
+   width:240px;
+   border-radius:20px;
+   border:2px solid #959595;
+   outline:none;
+   margin: 15px 0px 0px 0px;
+}
+#search>form>a>img{
+    position: absolute;
+    top:6px;
+    right:8px;
+}
+.header-nav li a.active{
+    border-bottom:3px solid #19bae5;
+}
+.header-nav li a:hover{
+    border-bottom:3px solid #19bae5;
+}

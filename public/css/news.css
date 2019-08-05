@@ -1,0 +1,108 @@
+/*title*/
+#wrap-perfect-buddies .buddies-list{
+    height: 162px;
+    padding:50px 0px 40px;
+    box-sizing: border-box;
+}
+#wrap-perfect-buddies .buddies-list ul{
+    height:72px;
+    text-align: center;
+    
+}
+#wrap-perfect-buddies .buddies-list li{
+    display: inline-block;
+    margin-right: -4px;
+}
+#wrap-perfect-buddies .buddies-list li a .ico {
+    width: 40px;
+    height: 40px;
+    background: url(../images/news/icon-nav.png) no-repeat;
+    display: inline-block;
+    vertical-align: top;
+}
+#wrap-perfect-buddies .buddies-list li a {
+    display: block;
+    text-align: center;
+    padding:0px 30px;
+}
+#wrap-perfect-buddies .buddies-list li a .name {
+    font-size: 16px;
+    color: #707070;
+    display: block;
+    padding-top: 10px;
+}
+#wrap-perfect-buddies .buddies-list li a .brand-ico {
+    background-position: 0 -40px;
+}
+#wrap-perfect-buddies .buddies-list li a .product-ico{
+    background-position: 0 -80px;
+}
+#wrap-perfect-buddies .buddies-list li a .product-ico-cp {
+    background-position: 0 -480px;
+}
+#wrap-perfect-buddies .buddies-list li a:hover .all-ico, #wrap-perfect-buddies .buddies-list li a.selected .all-ico {
+    background-position: -40px 0;
+}
+#wrap-perfect-buddies .buddies-list li a.selected .name{
+    color:#01b4e1;
+}
+/*news*/
+.main-section-wrapper{
+    position: relative;
+    margin-bottom: 50px;    
+}
+.news-list {
+   overflow: hidden;
+}
+.news-list .news-block {
+    cursor: pointer;
+    width: 380px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.news-list .news-block .desc {
+    padding: 20px;
+    background-color: white;
+}
+.news-list .news-block .desc .title {
+    height: 48px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+.news-list .news-block .desc .datePost {
+    color: #999;
+    text-align: right;
+    display: block;
+}
+.news-list .news-block .figure{
+    overflow: hidden;
+}
+.news-list .news-block .figure img:hover{
+    transform: scale(1.03);
+}
+.news-list .news-block:nth-child(3n) {
+    margin-right: 0;
+}
+/*更多button*/
+.main-section-wrapper .news-more {
+    width: 150px;
+    padding: 7px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #707070;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+}

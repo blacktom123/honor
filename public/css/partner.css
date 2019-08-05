@@ -1,0 +1,7 @@
+.main_bg_box{
+    background: url(../images/partner/Bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    margin:20px 0px;
+}

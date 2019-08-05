@@ -1,0 +1,266 @@
+/*头*/
+.kv-brand{
+    width:100%;
+    background: url(../images/brand/kv-brand.jpg) no-repeat center center;
+    margin-bottom: 20px;
+    height: 265px;
+}
+.brand-nav{
+    width: 100%;
+    height:22px;
+    padding: 30px 0px;
+    margin-bottom:20px;
+    text-align: center;
+}
+.brand-nav a{
+    color: #333;
+    font-size:16px;
+    padding: 0px 10px;
+}
+a.active{
+    color:#00B5E2;
+}
+/*事迹主体*/
+.brand-content{
+    width:1200px;
+    background: #fff;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+.brand-content .title{
+    font-size:24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.brand-year-title{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color:#70c1ec;
+    margin-bottom: 10px;
+}
+.main-timeline{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main-timeline::before{
+    content: "";
+    width:4px;
+    height:100%;
+    background: #70c1ec;
+    position: absolute;
+    left:50%;
+    margin-left: -2px;
+}
+.timeline{
+    margin-top:30px;
+    margin-bottom: 50px;
+    float: left;
+}
+.timeline-content,.timeline-content-right{
+    width:450px;
+    height: 320px;
+    position: relative;
+}
+.timeline::before{
+    content: "";
+    width:40px;
+    height:1px;
+    background: #70c1ec;
+    position: absolute;
+    left:50%;
+    margin-left: -40px;
+}
+.year,.year-right{
+    width:450px;
+    height:22px;
+    font-size: 16px;
+    color:#70c1ec;
+    margin-bottom: 10px;
+    text-align: end;
+}
+.timeline-content .mask,.timeline-content-right .mask{
+    width:450px;
+    height:252px;
+    overflow: hidden;
+    
+}
+.timeline-content .mask img,.timeline-content-right .mask img{
+    width:450px;
+    height:252px;
+    transition: .5s;
+}
+.timeline-content .mask img:hover,.timeline-content-right .mask img:hover{
+    transform: scale(1.05);
+}
+.description,.description-right{
+    line-height: 36px;
+    font-size:16px;
+    text-align: justify;
+    color:#70c1ec;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00b5e2;
+    position: absolute;
+    top: -9px;
+    right:-60px;    
+}
+/*右部*/
+.timeline-right{
+    margin-top:100px;
+    margin-bottom: 50px;
+    float: right;
+}
+.timeline-right::before{
+    content: "";
+    width:40px;
+    height:1px;
+    background: #70c1ec;
+    position: absolute;
+    margin-left:-50px;
+}
+.year-right{
+    text-align: start;
+}
+.icon-right{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00b5e2;
+    position: absolute;
+    top: -9px;
+    left:-60px;    
+}
+/*2017*/
+.brand-year.color2 .brand-year-title, 
+.brand-year.color2 .main-timeline .description, 
+.brand-year.color2 .main-timeline .year,
+.brand-year.color2 .brand-year-title-right,
+.brand-year.color2 .main-timeline .description-right, 
+.brand-year.color2 .main-timeline .year-right
+{
+    color: #f08b38;
+}
+.brand-year.color2 .main-timeline:before,
+.brand-year.color2 .timeline:before, 
+.brand-year.color2 .main-timeline .timeline-content:before, 
+.brand-year.color2 .main-timeline .icon,
+.brand-year.color2 .timeline-right:before, 
+.brand-year.color2 .main-timeline .timeline-content-right:before, 
+.brand-year.color2 .main-timeline .icon-right
+{
+    background-color: #f08b38;
+}
+/*2016*/
+.brand-year.color3 .brand-year-title, 
+.brand-year.color3 .main-timeline .description, 
+.brand-year.color3 .main-timeline .year,
+.brand-year.color3 .brand-year-title-right,
+.brand-year.color3 .main-timeline .description-right, 
+.brand-year.color3 .main-timeline .year-right
+{
+    color: rgb(244, 205, 39);
+}
+.brand-year.color3 .main-timeline:before,
+.brand-year.color3 .timeline:before, 
+.brand-year.color3 .main-timeline .timeline-content:before, 
+.brand-year.color3 .main-timeline .icon,
+.brand-year.color3 .timeline-right:before, 
+.brand-year.color3 .main-timeline .timeline-content-right:before, 
+.brand-year.color3 .main-timeline .icon-right
+{
+    background-color:rgb(244, 205, 39);;
+}
+/*2015*/
+.brand-year.color4 .brand-year-title, 
+.brand-year.color4 .main-timeline .description, 
+.brand-year.color4 .main-timeline .year,
+.brand-year.color4 .brand-year-title-right,
+.brand-year.color4 .main-timeline .description-right, 
+.brand-year.color4 .main-timeline .year-right
+{
+    color: rgb(159, 198, 175);
+}
+.brand-year.color4 .main-timeline:before,
+.brand-year.color4 .timeline:before, 
+.brand-year.color4 .main-timeline .timeline-content:before, 
+.brand-year.color4 .main-timeline .icon,
+.brand-year.color4 .timeline-right:before, 
+.brand-year.color4 .main-timeline .timeline-content-right:before, 
+.brand-year.color4 .main-timeline .icon-right
+{
+    background-color: rgb(159, 198, 175);
+}
+/*2014*/
+.brand-year.color5 .brand-year-title, 
+.brand-year.color5 .main-timeline .description, 
+.brand-year.color5 .main-timeline .year,
+.brand-year.color5 .brand-year-title-right,
+.brand-year.color5 .main-timeline .description-right, 
+.brand-year.color5 .main-timeline .year-right
+{
+    color: #70c1ec;
+}
+.brand-year.color5 .main-timeline:before,
+.brand-year.color5 .timeline:before, 
+.brand-year.color5 .main-timeline .timeline-content:before, 
+.brand-year.color5 .main-timeline .icon,
+.brand-year.color5 .timeline-right:before, 
+.brand-year.color5 .main-timeline .timeline-content-right:before, 
+.brand-year.color5 .main-timeline .icon-right
+{
+    background-color: #70c1ec;
+}
+/*侧边栏*/
+.year-line.container{
+    position: fixed;
+    top:150px;
+    right:7px;
+}
+.year-line:before {
+    width: 1px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background-color: #707070;
+}
+.year-line>li{
+    width:60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.year-line li:before {
+    width: 15px;
+    height: 15px;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    top: 12px;
+    background-color: white;
+    border: 1px #707070 solid;
+}
+.year-line li.active {
+    background: url(../images/brand/arrowBg.png) center right no-repeat;
+    color: #00b5e2;
+}
+.year-line li.active:before {
+    background-color: #00b5e2;
+    border-color: #00b5e2;
+}
+

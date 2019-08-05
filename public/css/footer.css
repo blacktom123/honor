@@ -1,0 +1,66 @@
+/*尾部*/
+.footer{
+    background-image: -moz-linear-gradient(top, #017acd, #00b7e1);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#017acd), to(#00b7e1));
+    background-image: -webkit-linear-gradient(top, #017acd, #00b7e1);
+    background-image: -o-linear-gradient(top, #017acd, #00b7e1);
+    background-image: linear-gradient(to bottom, #017acd, #00b7e1);
+    background-repeat: repeat-x;
+    height:290px;
+}
+
+.footer-links{
+    height:210px;
+    margin-top:40px;
+}
+.footer-links>div>ul{
+    float: left;
+    margin-left:50px;
+}
+.footer-links>div>ul>li+li{
+    margin-top:15px;
+    font-size:14px;   
+}
+.footer-links>div>ul>li:nth-child(1){
+    font-size:  18px;
+}
+.col-left{
+    font-size:  18px;
+    margin-left: -50px;
+}
+.col-right a,.col-left a{
+    color:#fff;
+}
+.col-right{
+    float: right;
+    border-left:1px solid #4BA9DE;
+    color:#fff;
+}
+.custom{
+    width:130px;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    border:1px solid #fff;
+    border-radius: 5px;
+}
+.social>div{
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+/*版权*/.site-info{
+    height: 100px;
+}
+.copyright{
+    height:60px;
+    margin-top: 30px;
+}
+.txt,.txt a{
+    color:#707070;
+}
+.txt:nth-child(2){
+    margin-top:10px;
+}

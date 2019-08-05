@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin:0px;
+}
+body{
+    background: #f6f6f6;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+ul,ol,li{
+    list-style-type:none;
+}
+.clear::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.tables::before{
+    content: "";
+    display: table;
+}

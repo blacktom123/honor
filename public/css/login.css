@@ -1,0 +1,225 @@
+/*logo*/
+.header-center{
+    width:998px;
+    height:67px;
+    margin: 0 auto;
+    line-height: 67px;
+}
+.header-center .main-logo img{
+   margin-top:22px;
+}
+.customer{
+    background: #ebebeb;
+}
+/*广告*/
+.style-icon{
+    background: #fffbe4;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color:#989898;
+}
+/*登录*/
+.login_bg{
+    background: #081638;
+}
+.login_size{
+    width:1130px;
+    height:590px;
+    margin:0 auto;
+    background: url(../images/login/honor-login-kv.png)
+}
+.login_size .userAccountLogin{
+    width:380px;
+    height:530px;
+    background-color:#fff;
+    margin: 30px 0px;
+    float: right;
+    position: relative;
+}
+div.login_h{
+    width:380px;
+    height:20px;
+    margin:24px 0px;
+}
+.login_h .actived{
+    color: #1aa8d5;
+}
+.login_h span{
+    font-size: 20px;
+    font-weight: 500;
+    width:169px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 9px;
+}
+span.splitLine{
+    border-left:1px solid #ccc;
+}
+.b-account{
+    width:328px;
+    margin: 0 auto;
+}
+.form-edit-area table{
+    width: 328px;
+}
+.opacity_Class{
+    display: block;
+    cursor: text;
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+.user-input-tr{
+    position: relative;
+}
+input.text{
+    border: 0;
+    color:#333;
+    font-size: 14px;
+    width: 100%;
+    height: 46px;
+    border-radius: 0;
+    outline: 0px;
+    border-bottom: 1px solid #ccc;
+}
+/* div.text{
+    margin: 2px;
+    color:rgb(204, 204, 204);
+    line-height: 46px;
+} */
+button.button-login{
+    background: #1aa8d5;
+    color:#fff;
+    border:0px;
+    border-radius: 26px;
+    outline: 0;
+    width:100%;
+    height: 44px;
+    line-height: 44px;
+    font-size:14px;
+    margin:50px 0px;
+    cursor: pointer;
+}
+.mt-links-float{
+    text-align: center;
+}
+.mt-links-float a{
+    color:#007dff;
+}
+.regist{
+    display: inline-block;
+    padding-right:10px;
+}
+.forgot{
+    display: inline-block;
+    padding-left: 10px;
+    border-left:1px solid #ccc;
+}
+.thirdLoginBlock{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    color:#999;
+    line-height: 16px;
+    width:328px;
+    height: 82px;
+}
+.thirdLintTitle{
+    margin-bottom: 10px;
+    
+}
+.thirdLintTitle .line-left{
+    background-image: url(../images/login/thirdLine.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+    left:0px;
+    top:8px;
+}
+.thirdLintTitle .line-right{
+    background-image: url(../images/login/thirdLine-reverse.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+    right:0px;
+    top:8px;
+}
+.thirdLoginDiv span{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+}
+.thirdLoginDiv span i{
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+    cursor: pointer;
+    background-image: url(../images/login/third_login.png);
+    background-repeat: no-repeat;
+}
+.qqlogin i{
+    background-position: -72px -9px;
+}
+.weibologin i{
+    background-position: -12px -153px;
+}
+.alipaylogin i{
+    background-position: -132px -9px;
+}
+.weixinlogin i{
+    background-position: -12px -9px;
+}
+.qqlogin i:hover{
+    background-position: -72px -55px;
+}
+.weibologin i:hover{
+    background-position: -12px -107px;
+}
+.alipaylogin i:hover{
+    background-position: -132px -55px;
+}
+.weixinlogin i:hover{
+    background-position: -12px -55px;
+}
+#change_margin_2{
+    height:20px;
+}
+#change_margin_2 .info{
+    display: none;
+}
+#change_margin_2 span{
+    font-size:12px;
+    color:#ff3320;
+    background:url(../images/login/btn_errorInfo.png) no-repeat;
+    padding-left:20px;
+}
+/*脚部版权*/
+.warrant-area{
+    height: 42px;
+    padding: 20px 0px;
+    color:#999;
+    font-size: 12px;
+}
+.foot_em{
+    font-style: normal;
+    font-weight: normal;
+}
+.foot_p{
+    text-align: center;
+    line-height: 12px;
+    height:12px;
+}
+.foot_p:nth-child(2){
+    margin-top: 10px;
+}

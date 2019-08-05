@@ -1,0 +1,100 @@
+/*logo*/
+.header-center{
+    width:998px;
+    height:67px;
+    margin: 0 auto;
+    line-height: 67px;
+}
+.header-center .main-logo img{
+   margin-top:22px;
+}
+.customer{
+    background: #333;
+}
+/*注册*/
+.register-content{
+    width:998px;
+    height:598px;
+    background: #fff;
+    margin: 0 auto;
+}
+.reg-detail .input-container{
+    width:420px;
+    height:42px;
+    border:1px solid #d9d9d9;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+}
+.register-content .reg-detail{
+    margin: 30px 289px;
+    position: relative;
+}
+.reg-detail .input-container>div{
+    float: left;
+}
+.reg-detail .input-container .input-left{
+    text-align: justify;
+    text-align-last: justify;
+    height:42px;
+    width:90px;
+    color:#333;
+    line-height: 42px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-right:1px solid #d9d9d9;
+}
+.input-container .input-right .node-input{
+    width: 311px;
+    height: 42px;
+    border:0px;
+    outline: 0px;
+    background-color:#f7f7f7;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder{
+    color:#CCCCCC;
+}
+.register-content .reg-detail button{
+    width: 200px;
+    height:40px;
+    border-radius:25px;
+    outline: 0px;
+    border:0px;
+    background-color:#1aa8d5;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    margin-left:-100px;
+    cursor: pointer; 
+    color:#fff;
+}
+.whole-page .line{
+    width:998px;
+    height:40px;
+    border-bottom:1px solid #d7d7d7;
+    margin: 0 auto;
+}
+.input-container #change_msg{
+    margin-left:16px;
+    margin-top:5px;
+    color:red;
+    font-size:12px;
+}
+.input-container #change_msg .info{
+    display: none;
+}
+/*footer*/
+.reg-content{
+    margin:40px 0px; 
+    text-align: center;
+}
+.reg-content .footer .rule{
+    color:#999;
+    margin:0px 10px;
+}
+.reg-content .footer{
+    font-size: 12px;
+    color:#999;
+}

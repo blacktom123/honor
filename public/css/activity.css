@@ -1,0 +1,80 @@
+/*Top banner*/
+.wrap-perfect-buddies{
+    text-align: center;
+    position: relative;
+}
+.wrap-perfect-buddies .year-list{
+    margin:50px 0px 40px 0px;
+}
+.year-line{
+    border-top:1px solid #ccc;
+    width:600px;
+    margin: 0 auto;
+}
+.year-list .year-li{
+    float: left;
+    vertical-align: top;
+}
+.year-list .year-li span{
+    text-align: center;
+    display: block;
+    margin: 0 15px;
+}
+.year-list .year-li span .name{
+    margin-top:10px;
+    font-size: 16px;
+    display: block;
+    color:#707070;
+}
+.year-list .year-li span .ico{
+    width:15px;
+    height: 15px;
+    border:1px solid #707070;
+    display: inline-block;
+    vertical-align: top;
+    background-color:#fff;
+    margin-top:-9px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.active{
+    color: #01b4e1 !important;
+}
+.select{
+    background-color:#01b4e1 !important;
+}
+.main-section-wrapper{
+    margin-bottom: 50px;    
+}
+.news-list .news-block{
+    width:580px;
+    height:325px;
+    overflow: hidden;
+    margin: 0px 40px 50px 0px;
+    position: relative;
+    float: left;
+}
+.news-list .desc{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 45px;
+    line-height: 45px;
+    background: rgba(0,0,0,0.5)
+}
+.news-list .desc .title{
+    width: 540px;
+    margin: 0 auto;
+    text-align: start;
+    font-size:16px;
+    color:#fff;
+    font-weight: normal;
+}
+.news-list .news-block .figure img:hover{
+    transform: scale(1.03);
+}
+.news-list .news-block:nth-child(even) {
+    margin-right: 0;
+}
+
+
